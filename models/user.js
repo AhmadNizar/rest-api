@@ -18,5 +18,12 @@ module.exports = (sequelize, DataTypes) => {
     });
   })
 
+  User.beforeUpdate(user => {
+    console.log('masuk sini');
+    return bcrypt.hash(user.password, saltRounds).then(function(hash) {
+      user.password = hash
+    });
+  })
+
   return User;
 };
