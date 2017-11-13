@@ -16,8 +16,8 @@ Route | HTTP | Description
 
 with only npm :
 
->npm install
->npm start
->npm run dev
+> npm install
+> npm start
+> npm run dev
 
 
