@@ -1,0 +1,27 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Belajar API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadNizar/rest-api.git"
+  },
+  "author": "AhmadNizar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmadNizar/rest-api/issues"
+  },
+  "homepage": "https://github.com/AhmadNizar/rest-api#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "nodemon": "^1.12.1",
+    "sequelize": "^4.22.6"
+  }
+}
