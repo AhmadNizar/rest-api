@@ -2,7 +2,7 @@
 
 Demo REST API with CRUD App
 
-##List of user routes:
+## List of user routes:
 
 Route | HTTP | Description
 ------|------|------------
@@ -11,15 +11,15 @@ Route | HTTP | Description
 /api/users | POST | Create new user
 /api/users/:id | DELETE | delete spesific user
 /api/users/:id | PUT | Update spesific user info
+/api/signin | POST | signin using email and password that already registered
+/api/signup | POST | register new data
 
-##Usage
+## Usage
 
 with only npm :
 
 > npm install
 
 > npm start
-
-> npm run dev
 
 
